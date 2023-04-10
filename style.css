@@ -1,0 +1,81 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#options {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+
+#feedback {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#feedback.correct {
+    color: green;
+}
+
+#feedback.incorrect {
+    color: red;
+}
+
+#score {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#timer {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
