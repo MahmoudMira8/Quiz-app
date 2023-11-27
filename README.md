@@ -12,4 +12,4 @@ Responsive design: The application is designed to work well on a variety of scre
 ## How to Customize
 If you want to modify the quiz to include different questions or change the appearance of the application, you can do so by editing the quizData array in the script.js file and/or the CSS styles in the style.css file.
 
-[Live Omnifood](https://quizapp132.netlify.app/)
+[Live Demo](https://quizapp132.netlify.app/)
